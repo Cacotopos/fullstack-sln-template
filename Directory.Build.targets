@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="GenerateBuildInfo" BeforeTargets="BeforeBuild">
+    <Message Importance="Low" Text="Building %(ProjectReference.MSBuildProjectName)" />
+  </Target>
+</Project>

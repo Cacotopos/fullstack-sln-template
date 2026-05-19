@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="AppName" xml:space="preserve"><value>Company.Product</value></data>
+  <data name="Welcome" xml:space="preserve"><value>Welcome</value></data>
+  <data name="Dashboard" xml:space="preserve"><value>Dashboard</value></data>
+  <data name="Login" xml:space="preserve"><value>Login</value></data>
+  <data name="Logout" xml:space="preserve"><value>Logout</value></data>
+  <data name="Register" xml:space="preserve"><value>Register</value></data>
+  <data name="Email" xml:space="preserve"><value>Email</value></data>
+  <data name="Password" xml:space="preserve"><value>Password</value></data>
+  <data name="ConfirmPassword" xml:space="preserve"><value>Confirm Password</value></data>
+  <data name="Submit" xml:space="preserve"><value>Submit</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Edit" xml:space="preserve"><value>Edit</value></data>
+  <data name="Create" xml:space="preserve"><value>Create</value></data>
+  <data name="Back" xml:space="preserve"><value>Back</value></data>
+  <data name="Name" xml:space="preserve"><value>Name</value></data>
+  <data name="Description" xml:space="preserve"><value>Description</value></data>
+  <data name="CreatedAt" xml:space="preserve"><value>Created</value></data>
+  <data name="UpdatedAt" xml:space="preserve"><value>Updated</value></data>
+  <data name="SampleItems" xml:space="preserve"><value>Sample Items</value></data>
+  <data name="NoItemsFound" xml:space="preserve"><value>No items found.</value></data>
+  <data name="ConfirmDelete" xml:space="preserve"><value>Are you sure you want to delete this item?</value></data>
+  <data name="SignInWithGoogle" xml:space="preserve"><value>Sign in with Google</value></data>
+  <data name="SignInWithMicrosoft" xml:space="preserve"><value>Sign in with Microsoft</value></data>
+  <data name="SignInWithApple" xml:space="preserve"><value>Sign in with Apple</value></data>
+  <data name="OrSignInWith" xml:space="preserve"><value>Or sign in with</value></data>
+  <data name="Actions" xml:space="preserve"><value>Actions</value></data>
+  <data name="GetStarted" xml:space="preserve"><value>Get Started</value></data>
+  <data name="LoggedInAs" xml:space="preserve"><value>Logged in as</value></data>
+</root>

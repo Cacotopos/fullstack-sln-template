@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Product.Contracts\Company.Product.Contracts.csproj" />
+  </ItemGroup>
+</Project>

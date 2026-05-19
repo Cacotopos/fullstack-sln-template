@@ -1,0 +1,26 @@
+@page
+@model Company.Product.Web.Pages.SampleItems.CreateModel
+@{
+    ViewData["Title"] = Localizer["Create"];
+}
+
+<h2>@Localizer["Create"]</h2>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="Input.Name" class="form-label">@Localizer["Name"]</label>
+        <input asp-for="Input.Name" class="form-control" />
+        <span asp-validation-for="Input.Name" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Input.Description" class="form-label">@Localizer["Description"]</label>
+        <textarea asp-for="Input.Description" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Input.Description" class="text-danger small"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">@Localizer["Save"]</button>
+    <a asp-page="/SampleItems/Index" class="btn btn-secondary">@Localizer["Cancel"]</a>
+</form>

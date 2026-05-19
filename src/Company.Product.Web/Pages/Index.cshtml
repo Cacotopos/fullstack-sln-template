@@ -1,0 +1,34 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center py-5">
+    <h1 class="display-4">@Localizer["Welcome"]</h1>
+    <p class="lead text-muted">A fully-featured full-stack template ready to customise.</p>
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <a asp-page="/Dashboard" class="btn btn-primary btn-lg mt-3">@Localizer["Dashboard"]</a>
+    }
+    else
+    {
+        <a asp-page="/Account/Login" class="btn btn-primary btn-lg mt-3 me-2">@Localizer["Login"]</a>
+        <a asp-page="/Account/Register" class="btn btn-outline-primary btn-lg mt-3">@Localizer["GetStarted"]</a>
+    }
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <h5>REST API</h5>
+        <p class="text-muted">Versioned endpoints, Swagger UI, JWT auth, and webhook receivers.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Auth &amp; RBAC</h5>
+        <p class="text-muted">Native accounts plus Google, Microsoft, and Apple sign-in. Role-based policies.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>PostgreSQL + EF Core</h5>
+        <p class="text-muted">Code-first migrations, repository pattern, and seed data.</p>
+    </div>
+</div>

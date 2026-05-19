@@ -1,0 +1,20 @@
+@page
+@model DashboardModel
+@{
+    ViewData["Title"] = Localizer["Dashboard"];
+}
+
+<h1>@Localizer["Dashboard"]</h1>
+<p class="text-muted">@Localizer["LoggedInAs"] <strong>@User.Identity?.Name</strong></p>
+
+<div class="row mt-4">
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">@Localizer["SampleItems"]</h5>
+                <p class="card-text text-muted">Create, view, and manage sample CRUD items.</p>
+                <a asp-page="/SampleItems/Index" class="btn btn-primary btn-sm">@Localizer["SampleItems"] &rarr;</a>
+            </div>
+        </div>
+    </div>
+</div>

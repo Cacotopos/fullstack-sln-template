@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="AppName" xml:space="preserve"><value>Company.Product</value></data>
+  <data name="Welcome" xml:space="preserve"><value>Bienvenue</value></data>
+  <data name="Dashboard" xml:space="preserve"><value>Tableau de bord</value></data>
+  <data name="Login" xml:space="preserve"><value>Connexion</value></data>
+  <data name="Logout" xml:space="preserve"><value>Déconnexion</value></data>
+  <data name="Register" xml:space="preserve"><value>S'inscrire</value></data>
+  <data name="Email" xml:space="preserve"><value>Adresse e-mail</value></data>
+  <data name="Password" xml:space="preserve"><value>Mot de passe</value></data>
+  <data name="ConfirmPassword" xml:space="preserve"><value>Confirmer le mot de passe</value></data>
+  <data name="Submit" xml:space="preserve"><value>Soumettre</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Annuler</value></data>
+  <data name="Save" xml:space="preserve"><value>Enregistrer</value></data>
+  <data name="Delete" xml:space="preserve"><value>Supprimer</value></data>
+  <data name="Edit" xml:space="preserve"><value>Modifier</value></data>
+  <data name="Create" xml:space="preserve"><value>Créer</value></data>
+  <data name="Back" xml:space="preserve"><value>Retour</value></data>
+  <data name="Name" xml:space="preserve"><value>Nom</value></data>
+  <data name="Description" xml:space="preserve"><value>Description</value></data>
+  <data name="CreatedAt" xml:space="preserve"><value>Créé</value></data>
+  <data name="UpdatedAt" xml:space="preserve"><value>Modifié</value></data>
+  <data name="SampleItems" xml:space="preserve"><value>Exemples d'éléments</value></data>
+  <data name="NoItemsFound" xml:space="preserve"><value>Aucun élément trouvé.</value></data>
+  <data name="ConfirmDelete" xml:space="preserve"><value>Êtes-vous sûr de vouloir supprimer cet élément ?</value></data>
+  <data name="SignInWithGoogle" xml:space="preserve"><value>Se connecter avec Google</value></data>
+  <data name="SignInWithMicrosoft" xml:space="preserve"><value>Se connecter avec Microsoft</value></data>
+  <data name="SignInWithApple" xml:space="preserve"><value>Se connecter avec Apple</value></data>
+  <data name="OrSignInWith" xml:space="preserve"><value>Ou se connecter avec</value></data>
+  <data name="Actions" xml:space="preserve"><value>Actions</value></data>
+  <data name="GetStarted" xml:space="preserve"><value>Commencer</value></data>
+  <data name="LoggedInAs" xml:space="preserve"><value>Connecté en tant que</value></data>
+</root>
