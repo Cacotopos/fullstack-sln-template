@@ -4,12 +4,12 @@
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.0" />
-    <PackageReference Include="Moq" Version="4.20.69" />
-    <PackageReference Include="xunit.v3" Version="3.2.2" />
-    <PackageReference Include="FluentAssertions" Version="6.12.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.14" />
+    <PackageReference Include="Moq" Version="4.21.0" />
+    <PackageReference Include="xunit.v3" Version="4.0.2" />
+    <PackageReference Include="FluentAssertions" Version="7.2.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Company.Product.Application\Company.Product.Application.csproj" />
@@ -17,6 +17,6 @@
     <ProjectReference Include="..\Company.Product.Domain\Company.Product.Domain.csproj" />
     <ProjectReference Include="..\Company.Product.Infrastructure\Company.Product.Infrastructure.csproj" />
     <ProjectReference Include="..\Company.Product.Api\Company.Product.Api.csproj" />
-    <ProjectReference Include="..\Company.Product.Web\Company.Product.Web.csproj" />
+    <ProjectReference Include="..\Company.Product.Web\Company.Product.Web.csproj" Aliases="WebApp" />
   </ItemGroup>
 </Project>

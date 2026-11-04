@@ -38,7 +38,7 @@ public sealed class SampleItemTests
     public void Create_ShouldThrow_WhenUserIdIsInvalid(string userId)
     {
         var act = () => SampleItem.Create("Name", "desc", userId);
-        act.Should().Throw<ArgumentException>().WithParameterName(nameof(userId));
+        act.Should().Throw<ArgumentException>().WithParameterName("createdByUserId");
     }
 
     [Fact]
