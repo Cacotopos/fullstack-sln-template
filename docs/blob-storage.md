@@ -26,7 +26,7 @@ CONNECTION_STRINGS__AzureBlob=DefaultEndpointsProtocol=https;AccountName=mystora
 If `CONNECTION_STRINGS__AzureBlob` is empty or missing, the app uses a local `blobs/` folder:
 
 ```
-src/Company.Product.Api/bin/Debug/net8.0/blobs/
+src/Company.Product.Api/bin/Debug/net10.0/blobs/
   uploads/
     abc123.png
     def456.pdf

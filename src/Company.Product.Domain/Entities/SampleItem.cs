@@ -16,14 +16,15 @@ public sealed class SampleItem
         ArgumentException.ThrowIfNullOrWhiteSpace(name);
         ArgumentException.ThrowIfNullOrWhiteSpace(createdByUserId);
 
+        var now = DateTimeOffset.UtcNow;
         return new SampleItem
         {
             Id = Guid.NewGuid(),
             Name = name,
             Description = description,
             CreatedByUserId = createdByUserId,
-            CreatedAt = DateTimeOffset.UtcNow,
-            UpdatedAt = DateTimeOffset.UtcNow
+            CreatedAt = now,
+            UpdatedAt = now
         };
     }
 

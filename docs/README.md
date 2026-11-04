@@ -171,7 +171,7 @@ Company.Product/
 ### Technology Stack
 
 **Backend:**
-- .NET 8.0
+- .NET 10.0
 - ASP.NET Core (API & Web)
 - Entity Framework Core
 - PostgreSQL
